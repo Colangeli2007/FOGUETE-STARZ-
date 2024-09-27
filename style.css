@@ -1,0 +1,251 @@
+html, body {
+background-color: #0A010A;
+  color: cyan;
+  margin: 0;
+  overinx: hidden;
+  font-family: "Jacques Francois Shadow", system-ui;
+}
+.slider{
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-align: x mandatory;
+  height: 100vh;
+  width: 100vw;
+}
+.slide{
+  min-width: 100vw;
+  display: inline-block;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: center;
+}
+.principal{
+ background-image: url("fundo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  align-items: flex-start;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  flex-direction: column;
+}
+
+.titulo{
+  margin-bottom: 1em;
+  width: 100%;
+  max-width: 600px;
+  margin-left: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.imagem{
+  height: 250px;
+  margin-left: 150px;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.botao{
+  background-color: beige;
+    boder-radius: 200px;
+padding: 1em;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  width: 80vh;
+  margin-left: 130px;
+   font-family: "Anton", system-ui;
+}
+
+.botao2{
+  background-color: transparent;
+  border: 2px solid beige;
+    boder-radius: 200px;
+padding: 1em;
+  color: beige;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+   display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  width: 80vh;
+  margin-left: 130px;
+   font-family: "Anton", system-ui;
+}
+
+.aviso{
+  font-size: 12px;
+  color: yellow;
+  margin-left: 210px;
+}
+
+.botao:hover{
+  background-color: yellow;
+  color: red;
+}
+
+.botao2:hover{
+  background-color: yellow;
+  color: red;
+}
+
+/* PÁGINA 2 */
+.menu{
+  max-height: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.menuitem{
+  display: flex;
+  align-items: center;
+  background-color: beige;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px gray;
+  overflow: hidden;
+}
+
+.menutitulo{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: grey;
+  text-decoration: double;
+}
+
+.menuimagem{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.menuinfo{
+  padding: 20px;
+}
+
+.itemmenu{
+  font-size: 25;
+  color: orange;
+}
+
+.descricao2{
+  font-size: 13px;
+  color: gray;
+  
+  text-align: justify;
+}
+
+.preco{
+  color: blue;
+  font-size: 25;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*PÁGINA 3 */
+
+.titulo2{
+  font-size: 45px;
+  color: white;
+  margin-bottom: 1em;
+  text-align: center;
+  font-family: "Jacques Francois Shadow", system-ui;
+}
+
+.imagem2{
+  width:80%;
+}
+
+.secundario{
+  align-items: center;
+  margin: 0 10em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+    gap: 20px;
+  margin-top: 60px;
+}
+
+.descricao{
+  font-family: "Anton", system-ui;
+  text-align: center;
+  font-size: 25px;
+}
+
+.titulo3{
+  font-weith: 700;
+  font-size: 45px;
+    color: white;
+  margin-bottom: 1em;
+    text-align: center;
+}
+
+.dispositivos{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.dispositivos img{
+  height: 100px;
+  padding: 0 50px;
+}
+
+.item{
+  font-size: 35px;
+  color: white;
+  padding: 0 50px;
+}
+
+.rodape{
+  text-align: center;
+  margin: 5em 3em;
+}
+
+.lista, .rodapelista{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1em;
+}
+
+.listalink a{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  margin-left: 1em;
+}
+
+.listalink a:houver {
+  color:cyan;
+}
+
+.listalink a:active{
+  color:violet;
+}
+
+.rodapetexto{
+  margin: 1em 0;
+  color: gray;
+  font-size: 20px;
+}
+
+.logo2{
+  height:  100px;
+}
